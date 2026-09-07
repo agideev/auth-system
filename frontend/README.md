@@ -129,6 +129,14 @@ frontend/
 └── README.md
 ```
 
+<h2 id="api">Routes</h2>
+
+Route       | Page                                           |
+----------- | ---------------------------------------------- |
+`/register` | Create Account                                 |
+`/login`    | Authenticate a user                            |
+`/profile`  | User Profile                                   |
+
 <h2 id="api">🔌 API Integration</h2>
 
 The frontend communicates with the backend through an HTTP API.
