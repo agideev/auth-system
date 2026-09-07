@@ -15,6 +15,7 @@
   <img src="./screenshots/register-view.png" alt="Chatbot desktop interface - screen 1" width="90%">
   <br><br>
   <img src="./screenshots/login-view.png" alt="Chatbot desktop interface - screen 2" width="90%">
+  <br><br>
   <img src="./screenshots/profile-view.png" alt="Chatbot desktop interface - screen 2" width="90%">
 </p>
 
