@@ -1,0 +1,45 @@
+# ==============================
+# Backend - Python
+# ==============================
+
+api/.venv/
+api/.pytest_cache
+api/__pycache__/
+api/plan.md
+api/*.pyc
+
+# Environment variables
+api/.env
+api/.env.local
+
+# private files
+api/prompts/
+api/docs/
+api/migrations/
+
+# Editor / IDE
+api/.vscode/
+api/.idea/
+
+
+# ==============================
+# Frontend - Node / Vue
+# ==============================
+
+# Dependencies
+frontend/node_modules/
+
+# Build
+frontend/dist/
+frontend/dist-ssr/
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+
+# Editor / IDE
+frontend/.vscode/
+frontend/.idea/
+
+# Project-specific
+frontend/solutions/

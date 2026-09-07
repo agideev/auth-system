@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Configuração da fonte Poppins no Tailwind v4 */
+@theme {
+    --font-sans: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Reset básico e essencial */
+
+/* Base do documento */
+html {
+    font-size: 16px;
+    /*scroll-behavior: smooth;*/
+}
+
+body {
+    min-height: 100vh;
+    font-family: var(--font-sans);
+    line-height: 1.5;
+    background-color: white;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Elementos de mídia e formulários responsivos */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Contêiner Principal (#app se comporta exatamente como o body) */
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
