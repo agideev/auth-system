@@ -15,7 +15,6 @@ api/.env.local
 # private files
 api/prompts/
 api/docs/
-api/migrations/
 
 # Editor / IDE
 api/.vscode/
